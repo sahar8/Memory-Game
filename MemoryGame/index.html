@@ -1,0 +1,113 @@
+<!html doctype>
+
+<html>
+
+<head>
+<title> Memory Game </title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class ="container">
+<!-- have two section : 1 for setting above game: star , restart , Counter of moves and timer -->
+<!-- score-panel for stars , move and return game -->
+	<section class="score-panel">
+<!-- stars class for 3 srars above the board game -->
+        <ul class="stars">
+        	<li><i>
+        		⋆
+        	</i></li>
+        	<li><i>
+        		⋆
+        	</i></li>
+        	<li><i>
+        		⋆
+        	</i></li>
+        </ul>
+<!-- moves class -->
+        <span class="moves">0</span> Moves
+<!-- restart to return the game --> 
+        		<button class="restart" onclick="restart()">ReStart</button>
+        <h5 id ="timer">
+ 	      <p> Timer : 00 </p>
+        </h5> 
+
+    </section>
+
+
+	<section class="Board_game">
+            <div class="cards instagram" data-image="instagram">
+                	<img class="back_face" src="img/instagram.png" alt="instgram" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards facebook" data-image="facebook">
+                	<img class="back_face" src="img/facebook.png" alt="facebook" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards youtube" data-image="youtube">
+                	<img class ="back_face" src="img/youtube.png" alt="youtube" width="130px">
+                    <img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards twitter" data-image="twitter">
+                	<img class="back_face" src="img/twitter.png" alt="twitter" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards whatsapp" data-image="whatsapp">
+                	<img class="back_face" src="img/whatsapp.png" alt= "whatsapp" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards linkedin" data-image="linkedin">
+                	<img class="back_face" src="img/linkedin.png" alt="linkedin" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards flickr" data-image="flickr">
+                	<img class="back_face" src="img/flickr.png" alt="flickr" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards pinterest" data-image="pinterest">
+                	<img class="back_face" src="img/pinterest.png" alt="pinterest" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+<!-- repeat image --> 
+            <div class="cards instagram" data-image="instagram">
+                	<img class="back_face" src="img/instagram.png" alt="instgram" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards facebook" data-image="facebook">
+                	<img class="back_face" src="img/facebook.png" alt="facebook" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards youtube" data-image="youtube">
+                	<img class ="back_face" src="img/youtube.png" alt="youtube" width="130px">
+                    <img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards twitter" data-image="twitter">
+                	<img class="back_face" src="img/twitter.png" alt="twitter" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards whatsapp" data-image="whatsapp">
+                	<img class="back_face" src="img/whatsapp.png" alt= "whatsapp" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards linkedin" data-image="linkedin">
+                	<img class="back_face" src="img/linkedin.png" alt="linkedin" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards flickr" data-image="flickr">
+                	<img class="back_face" src="img/flickr.png" alt="flickr" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+            <div class="cards pinterest" data-image="pinterest">
+                	<img class="back_face" src="img/pinterest.png" alt="pinterest" width="130px">
+                	<img class="front_face" src="img/qus.png" alt="?" width="150px" height="150px">
+            </div>
+
+
+	</section> <!-- boardGame -->
+</div> <!-- continer -->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
